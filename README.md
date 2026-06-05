@@ -37,7 +37,7 @@ src/
 ├── repositories/
 ├── schemas/
 ├── services/
-└── types/
+├── types
 
 
 ---
