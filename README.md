@@ -30,6 +30,7 @@ It demonstrates user registration, login, and protected routes with proper backe
 ---
 
 ## 📁 Project Structure
+
 src/
 ├── config/             # Environment variables and database connections
 ├── controllers/        # Request/response handlers (HTTP layer)
