@@ -31,14 +31,16 @@ It demonstrates user registration, login, and protected routes with proper backe
 
 ## 📁 Project Structure
 src/
-├── config/
-├── controllers/
-├── middleware/
-├── repositories/
-├── schemas/
-├── services/
-├── types
-
+├── config/             # Environment variables and database connections
+├── controllers/        # Request/response handlers (HTTP layer)
+├── middleware/         # Auth, validation, error handling middleware
+├── repositories/       # Database query logic (data access layer)
+├── routes/             # API route definitions mapping paths to controllers
+├── schemas/            # Zod, Joi, or Mongoose schemas
+├── services/           # Heavy business and domain logic
+├── types/              # Global TypeScript interfaces/types
+├── utils/              # Helper functions, custom Error classes, and loggers
+└── server.ts           # Server entry point, listening for connections
 
 ---
 
