@@ -5,7 +5,6 @@ import { User } from "../types/user.types";
 
 const USERS_FILE = path.join(
   process.cwd(),
-  "src",
   "data",
   "users.json"
 );
